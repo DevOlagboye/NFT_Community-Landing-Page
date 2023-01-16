@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18%;
+    gap: 15%;
 }
 
 .navbar-container .logo img {
@@ -18,4 +18,13 @@
     list-style: none;
     margin: 0px 30px 0px 30px;
     color: #FFF;
+}
+
+.nav-button button {
+    width: 130px;
+    height: 51px;
+    background: linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%);
+    color: #FFF;
+    border-radius: 30px;
+    border: none;
 }
