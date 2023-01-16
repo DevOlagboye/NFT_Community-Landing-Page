@@ -8,6 +8,17 @@ const NavBar = () => {
         <div className='logo'>
             <img src={NftLogo} alt="Apollo NFT Logo" />
         </div>
+        <div className='nav-list'>
+            <ul>
+                <li>Drop</li>
+                <li>Marketplace</li>
+                <li>Creator</li>
+                <li>Community</li>
+            </ul>
+        </div>
+        <div className='nav-button'>
+            <button>Contact Us</button>
+        </div>
     </div>
   )
 }
