@@ -4,6 +4,8 @@
 
 .heropage-details {
     display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 .heropage-text h2 {
@@ -13,5 +15,5 @@
 }
 
 .heropage-image img {
-    width: 350px;
+    width: 450px;
 }
