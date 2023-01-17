@@ -13,12 +13,7 @@ const HeroPage = () => {
                     Own <span>NFT Dream</span><br/>
                     Gallery <img src={Star} alt="Star SVG" />
                 </h2>
-            </div>
-            <div className='heropage-image'>
-                <img src={heroPageImage} alt="HeroPage Illustration" />
-            </div>
-        </div>
-        <div className='heropage-sub-details'>
+                <div className='heropage-sub-details'>
             <div className='circle'>
                 <img src={arrowDown} alt="Arrow Down Vector" />
                 <p>Discover NFT</p>
@@ -27,6 +22,12 @@ const HeroPage = () => {
                 <p>The Larges NFT Marketplace. Automatic and truly <br/>unique digital creation. Signed and issued by the <br/>creator, made possible by blockchain technologies</p>
             </div>
         </div>
+            </div>
+            <div className='heropage-image'>
+                <img src={heroPageImage} alt="HeroPage Illustration" />
+            </div>
+        </div>
+        
     </div>
   )
 }
