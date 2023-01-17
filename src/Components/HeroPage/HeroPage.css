@@ -5,6 +5,7 @@
 .heropage-details {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -12,8 +13,13 @@
     font-size: 70px;
     font-family: "Inter", sans-serif;
     font-weight: 800;
+    color: #FFF;
+}
+
+.heropage-text h2 span {
+    background: linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%);
 }
 
 .heropage-image img {
-    width: 450px;
+    width: 400px;
 }
