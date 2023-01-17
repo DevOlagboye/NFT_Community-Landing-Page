@@ -1,6 +1,7 @@
 import React from 'react'
 import Star from "../../Assets/images/Star.svg"
 import heroPageImage from "../../Assets/images/heropage-image.png"
+import arrowDown from "../../Assets/images/arrow-down.png"
 import "./HeroPage.css"
 
 const HeroPage = () => {
@@ -15,6 +16,15 @@ const HeroPage = () => {
             </div>
             <div className='heropage-image'>
                 <img src={heroPageImage} alt="HeroPage Illustration" />
+            </div>
+        </div>
+        <div className='heropage-sub-details'>
+            <div className='circle'>
+                <img src={arrowDown} alt="Arrow Down Vector" />
+                <p>Discover NFT</p>
+            </div>
+            <div className='description'>
+                <p>The Larges NFT Marketplace. Automatic and truly <br/>unique digital creation. Signed and issued by the <br/>creator, made possible by blockchain technologies</p>
             </div>
         </div>
     </div>
