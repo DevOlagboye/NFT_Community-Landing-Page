@@ -5,3 +5,7 @@
 .heropage-details {
     display: flex;
 }
+
+.heropage-image img {
+    width: 350px;
+}
