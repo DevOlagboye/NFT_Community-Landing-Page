@@ -59,4 +59,9 @@
 
 .heropage-stats {
     display: flex;
+    gap: 30px;
+}
+
+.stat {
+    color: #FFF;
 }
