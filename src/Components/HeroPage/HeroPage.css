@@ -6,6 +6,11 @@
     display: flex;
 }
 
+.heropage-text h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
 .heropage-image img {
     width: 350px;
 }
