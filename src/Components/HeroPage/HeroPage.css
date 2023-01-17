@@ -36,3 +36,16 @@
     background: linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%);
     border-radius: 50%;
 }
+
+.circle p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.circle img {
+    margin: auto;
+    display: block;
+    margin-top: 16px;
+    margin-left: 70px;
+    width: 15px;
+}
