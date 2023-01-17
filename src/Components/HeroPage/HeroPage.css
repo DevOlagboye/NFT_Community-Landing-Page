@@ -56,3 +56,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
+
+.heropage-stats {
+    display: flex;
+}
