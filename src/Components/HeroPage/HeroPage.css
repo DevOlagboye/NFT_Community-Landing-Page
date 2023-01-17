@@ -60,8 +60,19 @@
 .heropage-stats {
     display: flex;
     gap: 30px;
+    margin-left: 20px;
 }
 
 .stat {
     color: #FFF;
+    line-height: 3px;
+}
+
+.stat h5 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.stat h4 {
+    font-size: 17px;
 }
