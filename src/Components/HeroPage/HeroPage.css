@@ -1,3 +1,7 @@
 .heropage-container {
     padding: 30px;
 }
+
+.heropage-details {
+    display: flex;
+}
