@@ -3,7 +3,13 @@ import "./Partners.css"
 
 const Partners = () => {
   return (
-    <div>Partners</div>
+    <div className='partners-container'>
+        <div className='partners'>
+           <div>
+            
+           </div>
+        </div>
+    </div>
   )
 }
 
