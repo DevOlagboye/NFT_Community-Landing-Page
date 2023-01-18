@@ -1,4 +1,5 @@
 import React from 'react'
+import {Tabs} from "antd"
 import "./SuperDrops.css"
 
 const SuperDrops = () => {
