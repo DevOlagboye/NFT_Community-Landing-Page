@@ -3,7 +3,13 @@ import "./NftCard.css"
 
 const NftCard = () => {
   return (
-    <div>NftCard</div>
+    <div className='nftcard-container'>
+        <div className='nftcard'>
+            <div className='nftcard-details'>
+
+            </div>
+        </div>
+    </div>
   )
 }
 
