@@ -9,7 +9,7 @@ const SuperDrops = () => {
     }
   return (
     <div className='superdrops-container'>
-        <h5>Super Hot Drop</h5>
+        <h5 className='drops-text'>Super Hot Drop</h5>
         <Tabs defaultActiveKey='1' items={
         ourTabs.map(ourTab =>(
             {   
