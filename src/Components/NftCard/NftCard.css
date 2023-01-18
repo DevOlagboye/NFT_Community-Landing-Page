@@ -45,6 +45,8 @@
     margin-top: 0px;
 }
 
-.nft-line {
-    margin-top: -50px;
+.nftcard-details .nft-line {
+    margin-top: -9px;
+    border: 0.9px solid #EDECEC;
+    width: 90%;
 }

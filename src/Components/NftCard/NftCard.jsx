@@ -16,7 +16,7 @@ const NftCard = () => {
                    <span className='nft-price'>0.25ETH</span>
                     <h5 className='nft-price-number-text'>1 of 32</h5>
                 </div>
-                <img src={nftLine} alt="" className='nft-line' />
+                <hr className='nft-line'/>
                 <div className='nft-time-button'>
                  <div className='countdown'>
                     <p>3h 25m 3s</p>
