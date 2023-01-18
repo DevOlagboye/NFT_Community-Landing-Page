@@ -4,9 +4,20 @@
 
 .nftcard {
     background: #FFF;
-    height: 377px;
+    height: 400px;
     width: 285px;
     border-radius: 10px;
+}
+
+.nft-time-button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.countdown {
+    background: #815EE3;
+    color: #FFF;
+    border-radius: 30px;
 }
 
 .nftcard-details .nft-image {
