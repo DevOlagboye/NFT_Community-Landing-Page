@@ -1,0 +1,14 @@
+.superdrops-container {
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.tags {
+    background: #39324D;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
