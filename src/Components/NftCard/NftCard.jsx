@@ -10,13 +10,11 @@ const NftCard = () => {
         <div className='nftcard'>
             <div className='nftcard-details'>
                 <img className='nft-image' src={firstNFT} alt="" />
-                <h5>ArtCrypto</h5>
+                <h5 className='nft-name'>ArtCrypto 01</h5>
                 <div className='nft-price-number'>
-                    <div>
-                    <img src={ethImage} alt="" />
-                    <h5>0.25ETH</h5>
-                    </div>
-                    <h5>1 of 32</h5>
+                   <img src={ethImage} alt="" />
+                   <span>0.25ETH</span>
+                    <h5 className='nft-price-number-text'>1 of 32</h5>
                 </div>
                 <img src={nftLine} alt="" />
                 <div className='nft-time-button'>
