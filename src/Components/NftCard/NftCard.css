@@ -1,0 +1,12 @@
+.nftcard {
+    background: #FFF;
+    height: 377px;
+    width: 285px;
+    border-radius: 10px;
+}
+
+.nftcard-details img {
+    margin: auto;
+    display: block;
+    padding-top: 8px;
+}
