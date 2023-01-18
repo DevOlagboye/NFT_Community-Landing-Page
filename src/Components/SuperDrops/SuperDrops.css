@@ -3,15 +3,29 @@
     margin-left: 100px;
 }
 
-.tags.active {
+.ant-tabs-tab .ant-tabs-tab-btn {
+    padding: 2px 28px 2px 28px;
+}
+
+.ant-tabs-ink-bar {
+    background: transparent !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
     background: linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%);
+    border-radius: 66px;
+}
+
+.drops-text {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .tags {
-    background: #39324D;
     color: #fff;
     border: none;
     border-radius: 30px;
     text-align: center;
-    padding: 10px 28px 10px 28px;
 }

@@ -10,12 +10,13 @@ const SuperDrops = () => {
   return (
     <div className='superdrops-container'>
         <h5 className='drops-text'>Super Hot Drop</h5>
-        <Tabs defaultActiveKey='1' items={
+        <Tabs className='tabs-ant'  items={
         ourTabs.map(ourTab =>(
             {   
                 key: ourTab.key,
                 label: ourTab.Tab,
-                children: ourTab.children
+                children: ourTab.children,
+                activeKey: ourTab.key
             }
         ))
         }  onChange={onChange}/>
