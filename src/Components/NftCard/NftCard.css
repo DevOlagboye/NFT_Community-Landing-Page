@@ -48,7 +48,7 @@
 }
 
 .nftcard-details .nft-line {
-    margin-top: -9px;
+    margin-top: -5px;
     border: 0.9px solid #EDECEC;
     width: 90%;
 }
@@ -56,6 +56,7 @@
 .nft-time-button {
     display: flex;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .countdown {
@@ -77,4 +78,8 @@
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
+}
+
+.bid:hover {
+    cursor: pointer;
 }
