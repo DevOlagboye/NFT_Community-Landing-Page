@@ -50,3 +50,7 @@
     border: 0.9px solid #EDECEC;
     width: 90%;
 }
+
+.nft-time-button {
+    display: flex;
+}

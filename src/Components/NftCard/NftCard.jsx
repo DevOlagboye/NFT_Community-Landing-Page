@@ -1,7 +1,6 @@
 import React from 'react'
 import "./NftCard.css"
 import ethImage from "../../Assets/images/ETH.png"
-import nftLine from "../../Assets/images/nft-line.png"
 import firstNFT from "../../Assets/nfts/nft-image1.png"
 
 const NftCard = () => {
