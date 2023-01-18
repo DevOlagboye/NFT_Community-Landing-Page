@@ -20,7 +20,7 @@ const NftCard = () => {
                  <div className='countdown'>
                     <p>3h 25m 3s</p>
                  </div>
-                 <button>Place a bid</button>
+                 <button className='bid'>Place a bid</button>
                 </div>
             </div>
         </div>

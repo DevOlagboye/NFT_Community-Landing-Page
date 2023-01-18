@@ -9,11 +9,6 @@
     border-radius: 10px;
 }
 
-.nft-time-button {
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
 .countdown {
     background: #815EE3;
     color: #FFF;
@@ -66,4 +61,9 @@
 
 .nft-time-button {
     display: flex;
+    margin-left: 10px;
+}
+
+.bid {
+    margin-left: 100px;
 }
