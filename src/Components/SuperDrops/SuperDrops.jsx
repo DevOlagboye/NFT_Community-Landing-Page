@@ -3,7 +3,9 @@ import "./SuperDrops.css"
 
 const SuperDrops = () => {
   return (
-    <div>SuperDrops</div>
+    <div className='superdrops-container'>
+        <h5>Super Hot Drop</h5>
+    </div>
   )
 }
 
