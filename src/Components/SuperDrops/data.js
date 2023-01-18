@@ -3,7 +3,7 @@ import "./SuperDrops.css"
 
 export const ourTabs = [{
         key: 1,
-        Tab: <Tag className="tags">Hope Ape</Tag>,
+        Tab: <Tag className="tags active">Hope Ape</Tag>,
         children: "Tab 1"
     },
     {
