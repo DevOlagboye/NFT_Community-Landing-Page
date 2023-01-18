@@ -35,7 +35,9 @@
 
 .nft-price {
     margin-left: -10px;
+    font-size: 15px;
     margin-top: 5px;
+    color: #815EE3;
 }
 
 .nftcard-details .nft-price-number-text {
