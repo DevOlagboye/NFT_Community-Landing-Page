@@ -1,19 +1,20 @@
 import React from 'react'
 import "./NftCard.css"
 import ethImage from "../../Assets/images/ETH.png"
-import firstNFT from "../../Assets/nfts/nft-image1.png"
+import { NFTs } from './data'
 
 const NftCard = () => {
   return (
     <div className='nftcard-container'>
         <div className='nftcard'>
-            <div className='nftcard-details'>
-                <img className='nft-image' src={firstNFT} alt="" />
-                <h5 className='nft-name'>ArtCrypto 01</h5>
+            {NFTs.map(Nft =>(
+                <div className='nftcard-details'>
+                <img className='nft-image' src={Nft.nftImage} alt="" />
+                <h5 className='nft-name'>{Nft.nftName}</h5>
                 <div className='nft-price-number'>
                    <img src={ethImage} alt=""  className='eth-logo'/>
-                   <span className='nft-price'>0.25ETH</span>
-                    <h5 className='nft-price-number-text'>1 of 32</h5>
+                   <span className='nft-price'>{Nft.nftPrice}</span>
+                    <h5 className='nft-price-number-text'>{Nft.amount}</h5>
                 </div>
                 <hr className='nft-line'/>
                 <div className='nft-time-button'>
@@ -23,6 +24,7 @@ const NftCard = () => {
                  <button className='bid'>Place a bid</button>
                 </div>
             </div>
+            ))}
         </div>
     </div>
   )
