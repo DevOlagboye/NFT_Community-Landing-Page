@@ -1,7 +1,9 @@
 .nftcard-container {
     margin-top: 50px;
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
 
 .nftcard {
@@ -43,7 +45,7 @@
 }
 
 .nftcard-details .nft-price-number-text {
-    margin-left: 120px;
+    margin-left: 145px;
     font-size: 15px;
     font-weight: 100;
     margin-top: 0px;
