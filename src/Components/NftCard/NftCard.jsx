@@ -6,8 +6,8 @@ import { NFTs } from './data'
 const NftCard = () => {
   return (
     <div className='nftcard-container'>
-        <div className='nftcard'>
             {NFTs.map(Nft =>(
+                <div className='nftcard'>
                 <div className='nftcard-details'>
                 <img className='nft-image' src={Nft.nftImage} alt="" />
                 <h5 className='nft-name'>{Nft.nftName}</h5>
@@ -24,8 +24,9 @@ const NftCard = () => {
                  <button className='bid'>Place a bid</button>
                 </div>
             </div>
+            </div>
             ))}
-        </div>
+        
     </div>
   )
 }

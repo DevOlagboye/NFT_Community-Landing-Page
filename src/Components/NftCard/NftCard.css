@@ -9,11 +9,6 @@
     border-radius: 10px;
 }
 
-.nftcard-details {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .nftcard-details .nft-image {
     margin: auto;
     display: block;
