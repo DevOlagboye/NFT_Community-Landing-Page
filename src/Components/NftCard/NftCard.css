@@ -66,4 +66,10 @@
 
 .bid {
     margin-left: 100px;
+    background: transparent;
+    border: none;
+    color: #815EE3;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
 }
