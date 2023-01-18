@@ -9,8 +9,19 @@
     border-radius: 10px;
 }
 
-.nftcard-details img {
+.nftcard-details .nft-image {
     margin: auto;
     display: block;
     padding-top: 8px;
+}
+
+.nft-price-number img {
+    width: 30px;
+    height: 30px;
+}
+
+.nftcard-details h5 {
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
 }

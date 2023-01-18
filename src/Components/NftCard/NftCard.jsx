@@ -9,7 +9,7 @@ const NftCard = () => {
     <div className='nftcard-container'>
         <div className='nftcard'>
             <div className='nftcard-details'>
-                <img src={firstNFT} alt="" />
+                <img className='nft-image' src={firstNFT} alt="" />
                 <h5>ArtCrypto</h5>
                 <div className='nft-price-number'>
                     <img src={ethImage} alt="" />
