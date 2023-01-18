@@ -18,7 +18,10 @@ const NftCard = () => {
                 </div>
                 <img src={nftLine} alt="" className='nft-line' />
                 <div className='nft-time-button'>
-
+                 <div className='countdown'>
+                    <p>3h 25m 3s</p>
+                 </div>
+                 <button>Place a bid</button>
                 </div>
             </div>
         </div>
