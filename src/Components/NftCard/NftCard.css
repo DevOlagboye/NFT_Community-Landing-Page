@@ -9,12 +9,6 @@
     border-radius: 10px;
 }
 
-.countdown {
-    background: #815EE3;
-    color: #FFF;
-    border-radius: 30px;
-}
-
 .nftcard-details .nft-image {
     margin: auto;
     display: block;
@@ -64,11 +58,22 @@
     margin-left: 10px;
 }
 
+.countdown {
+    background: #E3DAFF;
+    text-align: center;
+    color: #1C51FE;
+    width: 80px;
+    font-size: 9px;
+    font-weight: 600;
+    height: 30px;
+    border-radius: 66px;
+}
+
 .bid {
-    margin-left: 100px;
+    margin-left: 90px;
     background: transparent;
     border: none;
-    color: #815EE3;
+    color: #1C51FE;
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
