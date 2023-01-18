@@ -12,8 +12,10 @@ const NftCard = () => {
                 <img className='nft-image' src={firstNFT} alt="" />
                 <h5>ArtCrypto</h5>
                 <div className='nft-price-number'>
+                    <div>
                     <img src={ethImage} alt="" />
-                    0.25ETH
+                    <h5>0.25ETH</h5>
+                    </div>
                     <h5>1 of 32</h5>
                 </div>
                 <img src={nftLine} alt="" />
