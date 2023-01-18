@@ -2,7 +2,7 @@ import React from 'react'
 import "./Partners.css"
 import {ourPartners} from "./data"
 
-const Partners = () => {
+const Partners = () => { 
   return (
     <div className='partners-container'>
         <div className='partners'>
