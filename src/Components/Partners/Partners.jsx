@@ -7,7 +7,7 @@ const Partners = () => {
     <div className='partners-container'>
         <div className='partners'>
            {ourPartners.map(ourPartner => (
-            <div>
+            <div key={ourPartner.key}>
                 <img src={ourPartner.partnerProfile} alt="Our partners" />
             </div>
            ))}
