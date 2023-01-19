@@ -97,6 +97,12 @@
     align-items: center;
 }
 
+.modal-text {
+    color: #815EE3;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
 .modal-price {
     font-size: 18px;
     margin-top: 10px;

@@ -39,13 +39,13 @@ const NftCard = () => {
             </div>
             </div>
             ))}
-            <Modal className='nft-modal' title="Mint Hope Ape NFT"  open={isModalOpen}
+            <Modal className='nft-modal' title="Mint Notification" open={isModalOpen}
                 okText={"Mint"}
                 cancelText={"Not Yet"}
                 onOk={handleMint} onCancel={handleCancel}>
                    {modalContent.map(newModal => (
                     <div className='nft-modal-content' key={newModal.nftName}>
-                     <h5>We are Minting  {newModal.nftName}</h5>
+                     <h5 className='modal-text'>Mint  {newModal.nftName}</h5>
                      <img src={newModal.nftImage} alt="" />
                      <div className='modal-logo-price'>
                      <img className='eth-logo' src={ethImage} alt="" />
