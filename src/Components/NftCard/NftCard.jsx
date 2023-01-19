@@ -4,7 +4,7 @@ import {Modal} from "antd"
 import ethImage from "../../Assets/images/ETH.png"
 import { NFTs } from './data'
 
-const NftCard = ({name, image, price, amount}) => {
+const NftCard = () => {
     const [isModalOpen, setIsModalOpen] = useState(false)
     const showModal = () =>{
         setIsModalOpen(true)
@@ -34,12 +34,12 @@ const NftCard = ({name, image, price, amount}) => {
                  </div>
                  <button className='bid' onClick={showModal}>Place a bid</button>
                 </div>
-                <Modal  title="Mint Hope Ape NFT" key={name} open={isModalOpen}
+                <Modal  title="Mint Hope Ape NFT" key={Nft.nftName} open={isModalOpen}
                 okText={"Mint"}
                 cancelText={"Not Yet"}
                 onOk={handleMint} onCancel={handleCancel}>
-                    <p>We are Minting </p>
-                    <img src={image} alt="" />
+                    <p>We are Minting {Nft.nftName} </p>
+                    <img src={Nft.nftImage} alt="" />
                 </Modal>
             </div>
             </div>
