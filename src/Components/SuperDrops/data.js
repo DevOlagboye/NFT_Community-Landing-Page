@@ -5,7 +5,7 @@ import NftCard from "../NftCard/NftCard"
 export const ourTabs = [{
         key: 1,
         Tab: <Tag className="tags">Hope Ape</Tag>,
-        children: <NftCard/>
+        children:  <NftCard />
     },
     {
         key: 2,
