@@ -39,7 +39,7 @@ const NftCard = () => {
             </div>
             </div>
             ))}
-            <Modal className='nft-modal' title="Mint Notification" open={isModalOpen}
+            <Modal className='nft-modal' title="Mint Notification" open={isModalOpen} centered={true}
                 okText={"Mint"}
                 cancelText={"Not Yet"}
                 onOk={handleMint} onCancel={handleCancel}>
