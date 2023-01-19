@@ -138,3 +138,8 @@
 .view-more-btn:hover {
     cursor: pointer;
 }
+
+.live-auction img {
+    width: 100%;
+    padding: 0px;
+}
