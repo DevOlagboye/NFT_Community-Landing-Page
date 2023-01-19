@@ -124,3 +124,17 @@
 .ant-modal-content {
     border-radius: 30px !important;
 }
+
+.view-more-btn {
+    background: linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%);
+    color: #FFF;
+    border: none;
+    margin-top: 30px;
+    height: 40px;
+    width: 130px;
+    border-radius: 40px;
+}
+
+.view-more-btn:hover {
+    cursor: pointer;
+}

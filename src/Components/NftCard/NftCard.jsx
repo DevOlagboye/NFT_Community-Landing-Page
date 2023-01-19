@@ -55,7 +55,9 @@ const NftCard = () => {
                      </div>
                    ))}
                 </Modal>
-        
+                <div>
+                    <button className='view-more-btn'>View More</button>
+                </div>
     </div>
   )
 }
