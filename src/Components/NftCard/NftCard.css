@@ -87,3 +87,7 @@
 .bid:hover {
     cursor: pointer;
 }
+
+.ant-modal {
+    background: transparent !important;
+}

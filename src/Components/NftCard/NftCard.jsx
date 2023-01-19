@@ -1,9 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./NftCard.css"
+import {Button, Modal} from "antd"
 import ethImage from "../../Assets/images/ETH.png"
 import { NFTs } from './data'
 
 const NftCard = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false)
+    const showModal = () =>{
+        setIsModalOpen(true)
+    }
+    const handleMint = () =>{
+        setIsModalOpen(false)
+    }
+    const handleCancel = () =>{
+        setIsModalOpen(false)
+    }
   return (
     <div className='nftcard-container'>
             {NFTs.map(Nft =>(
@@ -21,8 +32,14 @@ const NftCard = () => {
                  <div className='countdown'>
                     <p>3h 25m 3s</p>
                  </div>
-                 <button className='bid'>Place a bid</button>
+                 <button className='bid' onClick={showModal}>Place a bid</button>
                 </div>
+                <Modal title="Mint Hope Ape NFT" open={isModalOpen}
+                okText={"Mint"}
+                cancelText={"Not Yet"}
+                onOk={handleMint} onCancel={handleCancel}>
+                    <p>We are Minting {Nft.nftName}</p>
+                </Modal>
             </div>
             </div>
             ))}
