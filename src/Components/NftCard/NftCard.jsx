@@ -44,11 +44,11 @@ const NftCard = () => {
                 cancelText={"Not Yet"}
                 onOk={handleMint} onCancel={handleCancel}>
                    {modalContent.map(newModal => (
-                    <>
-                     <h5 key={newModal.nftName}>We are Minting  {newModal.nftName}</h5>
+                    <div className='nft-modal-content' key={newModal.nftName}>
+                     <h5>We are Minting  {newModal.nftName}</h5>
                      <img src={newModal.nftImage} alt="" />
                      <h5><img src={ethImage} alt="" />{newModal.nftPrice} ETH</h5>
-                     </>
+                     </div>
                    ))}
                 </Modal>
         
