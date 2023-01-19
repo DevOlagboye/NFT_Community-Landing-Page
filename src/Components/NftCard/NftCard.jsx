@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import "./NftCard.css"
-import {Button, Modal} from "antd"
+import {Modal} from "antd"
 import ethImage from "../../Assets/images/ETH.png"
 import { NFTs } from './data'
 
@@ -18,7 +18,7 @@ const NftCard = () => {
   return (
     <div className='nftcard-container'>
             {NFTs.map(Nft =>(
-                <div className='nftcard'>
+                <div className='nftcard'  key={Nft.nftName}>
                 <div className='nftcard-details'>
                 <img className='nft-image' src={Nft.nftImage} alt="" />
                 <h5 className='nft-name'>{Nft.nftName}</h5>
@@ -34,11 +34,12 @@ const NftCard = () => {
                  </div>
                  <button className='bid' onClick={showModal}>Place a bid</button>
                 </div>
-                <Modal title="Mint Hope Ape NFT" open={isModalOpen}
+                <Modal  title="Mint Hope Ape NFT" key={Nft.nftName} open={isModalOpen}
                 okText={"Mint"}
                 cancelText={"Not Yet"}
                 onOk={handleMint} onCancel={handleCancel}>
                     <p>We are Minting {Nft.nftName}</p>
+                    <img src={Nft.nftImage} alt="" />
                 </Modal>
             </div>
             </div>
