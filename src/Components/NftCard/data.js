@@ -3,6 +3,7 @@ import secondNFT from "../../Assets/nfts/nft-image2.png"
 import thirdNFT from "../../Assets/nfts/nft-image3.png"
 import fourthNFT from "../../Assets/nfts/nft-image4.png"
 import fifthNFT from "../../Assets/nfts/nft-image5.png"
+import sixthNFT from "../../Assets/nfts/nft-image6.png"
 
 export const NFTs = [{
         nftName: "ArtCrypto 01",
@@ -29,6 +30,11 @@ export const NFTs = [{
     }, {
         nftName: "ArtCrypto 05",
         nftImage: fifthNFT,
+        nftPrice: "0.25",
+        amount: "1 of 32"
+    }, {
+        nftName: "ArtCrypto 06",
+        nftImage: sixthNFT,
         nftPrice: "0.25",
         amount: "1 of 32"
     }
