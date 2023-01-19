@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import "./NftCard.css"
 import {Modal} from "antd"
 import ethImage from "../../Assets/images/ETH.png"
-import liveAuction from "../../Assets/images/LIVE-AUCTION.png"
 import { NFTs } from './data'
 
 const NftCard = () => {
@@ -58,10 +57,7 @@ const NftCard = () => {
                 </Modal>
                 <div>
                     <button className='view-more-btn'>View More</button>
-                </div>
-                <div className='live-auction'>
-                    <img src={liveAuction} alt="live auction" />
-                </div>
+                </div> 
     </div>
   )
 }
