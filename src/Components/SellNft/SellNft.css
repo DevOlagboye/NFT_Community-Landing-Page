@@ -13,6 +13,7 @@
 .sell-nft-cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     gap: 50px;
 }
