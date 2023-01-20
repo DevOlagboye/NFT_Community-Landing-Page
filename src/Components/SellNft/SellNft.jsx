@@ -3,7 +3,11 @@ import "./SellNft.css"
 
 const SellNft = () => {
   return (
-    <div>SellNft</div>
+    <div className='sell-nft-container'>
+        <div className='sell-nft-text'>
+            <h3>Create Your Sell NFT</h3>
+        </div>
+    </div>
   )
 }
 
