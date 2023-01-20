@@ -7,17 +7,19 @@
     font-weight: 700;
     font-size: 26px;
     font-family: "Inter", sans-serif;
-    margin-left: 100px;
+    margin-left: 180px;
 }
 
 .sell-nft-cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 160px;
+    gap: 50px;
 }
 
 .sell-nft-card {
     background: #251163;
     color: #FFF;
+    padding: 20px;
+    border-radius: 14px;
 }
