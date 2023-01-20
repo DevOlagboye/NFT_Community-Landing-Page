@@ -1,6 +1,6 @@
 import React from 'react'
-import creator1 from "../../Assets/creators/Wallet.svg"
 import "./Creators.css"
+import { topCreators } from './data'
 
 const Creators = () => {
   return (
@@ -8,17 +8,21 @@ const Creators = () => {
         <div className='creators-text'>
             <h3>Creators of the Week</h3>
         </div>
-        <div className='creators-cards'>
+        {
+            topCreators.map(topCreator => (
+                <div className='creators-cards'>
             <div className='creators-card'>
                 <div className='creators-card-image'>
-                    <img src={creator1} alt=""  className='creators-image'/>
+                    <img src={topCreator.creatorProfile} alt=""  className='creators-image'/>
                 </div>
                 <div className='creators-card-details'>
-                    <h5>Eka Prakasa</h5>
-                    <p>13.2K</p>
+                    <h5>{topCreator.creatorStats}</h5>
+                    <p>{topCreator.creatorStats}</p>
                 </div>
             </div>
         </div>
+            ))
+        }
     </div>
   )
 }
