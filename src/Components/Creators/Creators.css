@@ -13,10 +13,12 @@
 .creators-cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .creators-card {
     display: flex;
+    justify-content: center;
     align-items: center;
     background: #251163;
     padding: 1px 170px 1px 10px;

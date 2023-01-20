@@ -16,7 +16,7 @@ const Creators = () => {
                     <img src={topCreator.creatorProfile} alt=""  className='creators-image'/>
                 </div>
                 <div className='creators-card-details'>
-                    <h5>{topCreator.creatorStats}</h5>
+                    <h5>{topCreator.creatorName}</h5>
                     <p>{topCreator.creatorStats}</p>
                 </div>
             </div>
