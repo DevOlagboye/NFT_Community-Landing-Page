@@ -1,4 +1,5 @@
 import React from 'react'
+import "./SellNft.css"
 
 const SellNft = () => {
   return (
