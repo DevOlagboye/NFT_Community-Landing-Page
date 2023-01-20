@@ -16,3 +16,8 @@
     align-items: center;
     gap: 160px;
 }
+
+.sell-nft-card {
+    background: #251163;
+    color: #FFF;
+}
