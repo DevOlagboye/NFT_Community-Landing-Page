@@ -9,3 +9,17 @@
     font-family: "Inter", sans-serif;
     margin-left: 180px;
 }
+
+.creators-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.creators-card {
+    display: flex;
+    align-items: center;
+}
+
+.creators-card-details {
+    color: #fff;
+}
