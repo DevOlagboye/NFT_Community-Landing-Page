@@ -14,6 +14,11 @@ const SellNft = () => {
                 <h5>Connect Wallet</h5>
                 <p>This growth plan will help you reach <br/> your resolutions and achieve the <br/>goals you have been striving <br/>towards.</p>
             </div>
+            <div className='sell-nft-card'>
+                <img src={walletImage} alt="" />
+                <h5>NFT Marketplace</h5>
+                <p>This growth plan will help you reach <br/> your resolutions and achieve the <br/>goals you have been striving <br/>towards.</p>
+            </div>
         </div>
     </div>
   )
