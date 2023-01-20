@@ -7,22 +7,24 @@
     font-weight: 700;
     font-size: 26px;
     font-family: "Inter", sans-serif;
-    margin-left: 180px;
+    margin-left: 130px;
 }
 
 .creators-cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .creators-card {
     display: flex;
-    justify-content: center;
     align-items: center;
     background: #251163;
-    padding: 1px 170px 1px 10px;
     border-radius: 10px;
+    padding-left: 10px;
+    width: 350px;
+    height: 80px;
 }
 
 .creators-card-details {
@@ -40,6 +42,6 @@
 }
 
 .creators-image {
-    width: 60px;
+    width: 50px;
     border-radius: 6px;
 }
