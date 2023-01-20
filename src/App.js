@@ -1,4 +1,5 @@
 import './App.css';
+import Creators from './Components/Creators/Creators';
 import HeroPage from './Components/HeroPage/HeroPage';
 import LiveAuction from './Components/LiveAuction/LiveAuction';
 import NavBar from './Components/NavBar/NavBar';
@@ -15,6 +16,7 @@ function App() {
       <SuperDrops/>
       <LiveAuction/>
       <SellNft/>
+      <Creators/>
     </div>
   );
 }
