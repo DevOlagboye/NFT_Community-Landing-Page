@@ -9,3 +9,10 @@
     font-family: "Inter", sans-serif;
     margin-left: 100px;
 }
+
+.sell-nft-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
