@@ -18,8 +18,26 @@
 .creators-card {
     display: flex;
     align-items: center;
+    background: #251163;
+    padding: 1px 170px 1px 10px;
+    border-radius: 10px;
 }
 
 .creators-card-details {
     color: #fff;
+    margin-left: 15px;
+}
+
+.creators-card-details h5 {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.creators-card-details p {
+    margin-top: -9px;
+}
+
+.creators-image {
+    width: 60px;
+    border-radius: 6px;
 }
