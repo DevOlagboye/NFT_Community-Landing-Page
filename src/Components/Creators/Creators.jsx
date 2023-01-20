@@ -8,9 +8,10 @@ const Creators = () => {
         <div className='creators-text'>
             <h3>Creators of the Week</h3>
         </div>
+        <div className='creators-cards'>
         {
             topCreators.map(topCreator => (
-                <div className='creators-cards'>
+                
             <div className='creators-card'>
                 <div className='creators-card-image'>
                     <img src={topCreator.creatorProfile} alt=""  className='creators-image'/>
@@ -20,9 +21,10 @@ const Creators = () => {
                     <p>{topCreator.creatorStats}</p>
                 </div>
             </div>
-        </div>
+        
             ))
         }
+        </div>
     </div>
   )
 }
