@@ -45,3 +45,8 @@
     width: 50px;
     border-radius: 6px;
 }
+
+.view-more {
+    display: flex;
+    justify-content: center;
+}
