@@ -21,7 +21,6 @@ const Creators = () => {
                     <p>{topCreator.creatorStats}</p>
                 </div>
             </div>
-        
             ))
         }
         </div>
