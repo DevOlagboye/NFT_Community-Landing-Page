@@ -24,6 +24,9 @@ const Creators = () => {
             ))
         }
         </div>
+        <div className='view-more'>
+            <button className='view-more-btn'>View More</button>
+        </div> 
     </div>
   )
 }
