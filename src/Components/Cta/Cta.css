@@ -10,10 +10,18 @@
 .cta-details {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .cta-details h3 {
     color: #FFF;
     font-size: 30px;
+}
+
+.cta-details button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
 }
