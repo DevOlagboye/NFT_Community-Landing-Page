@@ -20,6 +20,10 @@
     color: #FFF;
 }
 
+.nav-list ul li:hover {
+    cursor: pointer;
+}
+
 .nav-button button {
     width: 130px;
     height: 51px;
