@@ -30,12 +30,12 @@
 .creators-card-details {
     color: #fff;
     margin-left: 15px;
-    font-family: "Inter", sans-serif;
 }
 
 .creators-card-details h5 {
     font-weight: 700;
     font-size: 15px;
+    font-family: "Inter", sans-serif;
 }
 
 .creators-card-details p {
