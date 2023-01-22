@@ -3,7 +3,9 @@ import "./Cta.css"
 
 const Cta = () => {
   return (
-    <div>Cta</div>
+    <div className='cta-container'>
+
+    </div>
   )
 }
 
