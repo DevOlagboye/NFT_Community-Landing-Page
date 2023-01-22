@@ -2,9 +2,11 @@
     background: url("../../Assets/images/join-community-background.png");
     padding: 30px;
     background-repeat: no-repeat;
-    height: 290px;
+    background-position: center;
+    height: 150px;
     width: 80%;
-    margin: auto;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
 }
 
 .cta-details {
@@ -16,7 +18,10 @@
 
 .cta-details h3 {
     color: #FFF;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
 }
 
 .cta-details button {
