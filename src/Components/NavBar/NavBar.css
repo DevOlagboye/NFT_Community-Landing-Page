@@ -24,6 +24,7 @@
 .nav-list ul li:hover {
     cursor: pointer;
     color: #0038ED;
+    transform: translateY(-6px);
 }
 
 .nav-button button {
