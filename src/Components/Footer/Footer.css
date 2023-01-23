@@ -35,6 +35,7 @@
     color: #999999;
     margin-left: -40px;
     margin-top: 10px;
+    transition: ease-in-out .6s;
 }
 
 .footer-links ul li:hover {
