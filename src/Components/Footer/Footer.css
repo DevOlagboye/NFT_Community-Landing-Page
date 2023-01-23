@@ -22,3 +22,12 @@
 .footer-logo img {
     width: 120px;
 }
+
+.footer-links h5 {
+    color: #FFF;
+}
+
+.footer-links ul li {
+    list-style: none;
+    color: #999999;
+}
