@@ -109,18 +109,6 @@
     color: #815EE3;
 }
 
-.ant-btn-default {
-    color: #815EE3;
-    font-size: 15px;
-    font-family: "Inter", sans-serif;
-    border: #815EE3 1px dashed;
-}
-
-.ant-btn-primary {
-    background: #815EE3;
-    font-size: 15px;
-}
-
 .ant-modal-content {
     border-radius: 10px !important;
 }
