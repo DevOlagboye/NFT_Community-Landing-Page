@@ -19,6 +19,38 @@ const Footer = () => {
                 <FaGithub/>
             </div>
           </div>
+          <div className='footer-links'>
+            <h5>Marketplace</h5>
+              <ul>
+                <li>Buy Product</li>
+                <li>Sell Product</li>
+                <li>Our Creator</li>
+              </ul>
+          </div>
+          <div className='footer-links'>
+              <h5>Resources</h5>
+              <ul>
+                <li>About Us</li>
+                <li>Event</li>
+                <li>Our Creator</li>
+              </ul>
+          </div>
+          <div className='footer-links'>
+              <h5>Company</h5>
+              <ul>
+                <li>Media</li>
+                <li>Blog</li>
+                <li>Pricing</li>
+              </ul>
+          </div>
+          <div className='footer-links'>
+              <h5>Legal</h5>
+              <ul>
+                <li>Terms</li>
+                <li>Privacy</li>
+                <li>Support</li>
+              </ul>
+          </div>
       </div>
     </div>
   )
