@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 125px;
 }
 
@@ -25,9 +26,12 @@
 
 .footer-links h5 {
     color: #FFF;
+    margin-top: -10px;
 }
 
 .footer-links ul li {
     list-style: none;
     color: #999999;
+    margin-left: -40px;
+    margin-top: 10px;
 }
