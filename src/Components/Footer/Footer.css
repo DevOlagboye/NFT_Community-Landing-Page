@@ -2,6 +2,12 @@
     padding: 30px;
 }
 
+.footer-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-logo img {
     width: 120px;
 }
