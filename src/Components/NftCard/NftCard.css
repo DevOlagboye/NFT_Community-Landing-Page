@@ -146,5 +146,18 @@
 
 .nft-modal-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+}
+
+.nft-button button {
+    display: block;
+    background: #815EE3;
+    font-size: 15px;
+    border: none;
+    color: #FFF;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
 }
