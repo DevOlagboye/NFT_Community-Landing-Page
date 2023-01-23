@@ -1,6 +1,7 @@
 import './App.css';
 import Creators from './Components/Creators/Creators';
 import Cta from './Components/Cta/Cta';
+import Footer from './Components/Footer/Footer';
 import HeroPage from './Components/HeroPage/HeroPage';
 import LiveAuction from './Components/LiveAuction/LiveAuction';
 import NavBar from './Components/NavBar/NavBar';
@@ -19,6 +20,7 @@ function App() {
       <SellNft/>
       <Creators/>
       <Cta/>
+      <Footer/>
     </div>
   );
 }
