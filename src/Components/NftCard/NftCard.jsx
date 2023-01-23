@@ -48,7 +48,7 @@ const NftCard = () => {
                     <img src={newModal.nftImage} alt="" />
                     </div>
                      <div className='nft-modal-details'>
-                     <h5 className='modal-text'>Mint  {newModal.nftName}</h5>
+                     <h5 className='modal-text'>{newModal.nftName}</h5>
                      <div className='modal-logo-price'>
                      <img className='eth-logo' src={ethImage} alt="" />
                      <h5 className='modal-price'>{newModal.nftPrice} ETH</h5>
