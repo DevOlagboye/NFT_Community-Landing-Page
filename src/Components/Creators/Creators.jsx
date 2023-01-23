@@ -12,7 +12,7 @@ const Creators = () => {
         {
             topCreators.map(topCreator => (
                 
-            <div className='creators-card'>
+            <div className='creators-card' key={topCreator.creatorName}>
                 <div className='creators-card-image'>
                     <img src={topCreator.creatorProfile} alt=""  className='creators-image'/>
                 </div>
