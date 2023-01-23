@@ -54,8 +54,8 @@ const NftCard = () => {
                      <h5 className='modal-price'>{newModal.nftPrice} ETH</h5>
                      </div>
                      <div className='nft-button'>
-                        <button className='secondary-btn'>Not Yet</button>
-                        <button className='primary-btn'>Mint</button>
+                        <button className='secondary-btn' onClick={handleCancel}>Not Yet</button>
+                        <button className='primary-btn' onClick={handleMint}>Mint</button>
                     </div>
                      </div>
                      
