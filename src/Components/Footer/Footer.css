@@ -20,6 +20,10 @@
     font-size: 20px;
 }
 
+.icon:hover {
+    cursor: pointer;
+}
+
 .footer-logo img {
     width: 120px;
 }
