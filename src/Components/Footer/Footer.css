@@ -1,3 +1,7 @@
 .footer-container {
     padding: 30px;
 }
+
+.footer-logo img {
+    width: 120px;
+}
