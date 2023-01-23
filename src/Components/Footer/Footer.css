@@ -36,3 +36,9 @@
     margin-left: -40px;
     margin-top: 10px;
 }
+
+.footer-divider {
+    width: 90%;
+    margin-top: 30px;
+    border: 0.6px solid rgba(234, 236, 240, 0.16);
+}
