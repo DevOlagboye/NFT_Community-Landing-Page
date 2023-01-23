@@ -37,6 +37,10 @@
     margin-top: 10px;
 }
 
+.footer-links ul li:hover {
+    transform: translateX(20px);
+}
+
 .footer-divider {
     width: 90%;
     margin-top: 30px;
