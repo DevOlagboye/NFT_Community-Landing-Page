@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
       </div>
       <hr className='footer-divider'/>
-      <p className='footer-copyright'>Copyright © ApolloNft {new Date().getFullYear()} All right reserved</p>
+      <p className='footer-copyright'>Copyright © ApolloNFT {new Date().getFullYear()} All right reserved</p>
     </div>
   )
 }
