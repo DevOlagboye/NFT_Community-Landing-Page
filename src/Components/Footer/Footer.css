@@ -13,6 +13,10 @@
     color: #999999;
 }
 
+.icon {
+    margin: 0px 10px 0px 10px;
+}
+
 .footer-logo img {
     width: 120px;
 }

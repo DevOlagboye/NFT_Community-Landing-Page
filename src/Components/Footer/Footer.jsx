@@ -10,13 +10,13 @@ const Footer = () => {
           <div className='footer-logo-text'>
             <div className='footer-logo'>
               <img src={footerLogo} alt="Apollo Logo" />
-              <h5>This growth plan will help you reach<br/> your resolutions and achieve the goals <br/> you have been striving towards.</h5>
+              <p>This growth plan will help you reach<br/> your resolutions and achieve the goals <br/> you have been striving towards.</p>
             </div>
             <div className='footer-social-icons'>
-                <FaTwitter/>
-                <FaLinkedin/>
-                <FaFacebook/>
-                <FaGithub/>
+                <FaTwitter className='icon'/>
+                <FaLinkedin className='icon'/>
+                <FaFacebook className='icon'/>
+                <FaGithub className='icon'/>
             </div>
           </div>
           <div className='footer-links'>
