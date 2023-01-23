@@ -160,6 +160,7 @@
     height: 40px;
     width: 100%;
     margin-top: 20px;
+    border-radius: 4px;
 }
 
 .nft-button .secondary-btn {
@@ -170,4 +171,9 @@
     height: 40px;
     font-family: "Inter", sans-serif;
     border: #815EE3 1px dashed;
+    border-radius: 4px;
+}
+
+.nft-button button:hover {
+    cursor: pointer;
 }
