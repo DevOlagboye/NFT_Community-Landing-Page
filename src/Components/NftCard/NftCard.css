@@ -146,4 +146,5 @@
 
 .nft-modal-content {
     display: flex;
+    gap: 20px;
 }
