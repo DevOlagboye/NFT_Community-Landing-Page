@@ -52,6 +52,7 @@ const Footer = () => {
               </ul>
           </div>
       </div>
+      <hr className='footer-divider'/>
     </div>
   )
 }
