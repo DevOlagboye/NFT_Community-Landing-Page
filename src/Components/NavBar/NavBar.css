@@ -56,7 +56,7 @@
 
 @media(max-width: 600px) {
     .nav-list ul li,
-    button {
+    .nav-button {
         display: none;
     }
     .nav-bar-icon {

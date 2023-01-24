@@ -21,7 +21,7 @@ const HeroPage = () => {
                  </div>
                 <div className='description'>
                 <p>The Largest NFT Marketplace. Automatic and truly <br/>unique digital creation. Signed and issued by the <br/>creator, made possible by blockchain technologies</p>
-                {/* <button className='mobile-button'>Discover NFT</button> */}
+                <button className='mobile-button'>Discover NFT</button>
              </div>
         </div>
         <div className='heropage-stats'>
