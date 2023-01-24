@@ -19,6 +19,10 @@
     font-size: 16px;
 }
 
+.mobile-button:hover {
+    cursor: pointer;
+}
+
 .heropage-text h2 {
     font-size: 70px;
     font-family: "Inter", sans-serif;
