@@ -22,10 +22,6 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
 }
 
 .nav-bar-icon:hover {
@@ -65,5 +61,11 @@
     }
     .nav-bar-icon {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+    }
+    .navbar-container {
+        justify-content: flex-start;
     }
 }
