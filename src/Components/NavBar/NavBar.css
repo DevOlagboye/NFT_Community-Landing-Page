@@ -37,7 +37,8 @@
 }
 
 @media(max-width: 600px) {
-    .nav-list ul li {
+    .nav-list ul li,
+    button {
         display: none;
     }
 }
