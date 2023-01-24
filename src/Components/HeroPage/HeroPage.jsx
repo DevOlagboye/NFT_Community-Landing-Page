@@ -11,7 +11,7 @@ const HeroPage = () => {
             <div className='heropage-text'>
                 <h2>Create Your <br/>
                     Own <span>NFT Dream</span><br/>
-                    Gallery <img src={Star} alt="Star SVG" />
+                    Gallery <img src={Star} alt="Star SVG"  className='star'/>
                 </h2>
                 <div className='heropage-sub-details'>
                     <div className='circle'>
