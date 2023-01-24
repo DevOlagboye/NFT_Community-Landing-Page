@@ -27,6 +27,10 @@
     align-items: center;
 }
 
+.nav-bar-icon:hover {
+    cursor: pointer;
+}
+
 .nav-list ul {
     display: flex;
 }
