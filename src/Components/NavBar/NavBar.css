@@ -14,12 +14,17 @@
     display: none;
     background: #0038ED;
     color: #FFF;
-    padding: 10px 12px 10px 12px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
     border: none;
-    font-size: 17px;
+    font-size: 18px;
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-list ul {
