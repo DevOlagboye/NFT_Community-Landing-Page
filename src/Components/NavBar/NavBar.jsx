@@ -28,7 +28,7 @@ const NavBar = () => {
         <div className='nav-button'>
             <button>Contact Us</button>
         </div>
-        <button onClick={showMenu} className="">
+        <button onClick={showMenu} className="nav-bar-icon">
                 <FaBars/>
             </button>
             <Drawer placement='left' onClose={hideMenu} open={open}>
