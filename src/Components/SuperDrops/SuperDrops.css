@@ -30,3 +30,9 @@
     font-size: 17px;
     font-family: "Inter", sans-serif;
 }
+
+@media(max-width: 600px) {
+    .superdrops-container {
+        margin-left: 0px;
+    }
+}
