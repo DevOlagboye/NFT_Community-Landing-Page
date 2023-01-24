@@ -35,3 +35,9 @@
     border-radius: 30px;
     border: none;
 }
+
+@media(max-width: 600px) {
+    .nav-list ul li {
+        display: none;
+    }
+}
