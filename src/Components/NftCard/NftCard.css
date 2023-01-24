@@ -169,6 +169,7 @@
 @media(max-width: 600px) {
     .nftcard-details .nft-image {
         width: 250px;
+        padding-top: 15px;
     }
     .nft-modal-image .nft-modal-img {
         width: 150px;
