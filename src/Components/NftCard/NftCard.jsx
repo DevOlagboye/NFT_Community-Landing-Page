@@ -45,7 +45,7 @@ const NftCard = () => {
                    {modalContent.map(newModal => (
                     <div className='nft-modal-content' key={newModal.nftName}>
                     <div className='nft-modal-image'>
-                    <img src={newModal.nftImage} alt="" />
+                    <img src={newModal.nftImage} alt="" className='nft-modal-img'/>
                     </div>
                      <div className='nft-modal-details'>
                      <h5 className='modal-text'>{newModal.nftName}</h5>
