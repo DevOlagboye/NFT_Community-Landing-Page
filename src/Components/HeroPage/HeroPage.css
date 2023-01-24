@@ -108,4 +108,7 @@
     .heropage-stats {
         margin-left: 0px;
     }
+    .mobile-button {
+        display: block;
+    }
 }
