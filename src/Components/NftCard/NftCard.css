@@ -165,3 +165,9 @@
 .nft-button button:hover {
     cursor: pointer;
 }
+
+@media(max-width: 600px) {
+    .nftcard-details .nft-image {
+        width: 250px;
+    }
+}
