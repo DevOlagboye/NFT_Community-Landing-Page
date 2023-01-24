@@ -1,4 +1,5 @@
-import React from 'react'
+import React , {useState}  from 'react'
+import { Drawer } from 'antd'
 import "./NavBar.css"
 import NftLogo from "../../Assets/images/ApolloNFT.png"
 
@@ -15,6 +16,8 @@ const NavBar = () => {
                 <li>Creator</li>
                 <li>Community</li>
             </ul>
+
+
         </div>
         <div className='nav-button'>
             <button>Contact Us</button>

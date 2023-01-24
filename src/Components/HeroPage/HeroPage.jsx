@@ -5,6 +5,7 @@ import arrowDown from "../../Assets/images/arrow-down.png"
 import "./HeroPage.css"
 
 const HeroPage = () => {
+    
   return (
     <div className='heropage-container'>
         <div className='heropage-details'>
@@ -41,7 +42,6 @@ const HeroPage = () => {
                 <img src={heroPageImage} alt="HeroPage Illustration" />
             </div>
         </div>
-        
     </div>
   )
 }
