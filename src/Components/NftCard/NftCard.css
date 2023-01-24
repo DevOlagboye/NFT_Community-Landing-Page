@@ -170,4 +170,10 @@
     .nftcard-details .nft-image {
         width: 250px;
     }
+    .nft-modal-image .nft-modal-img {
+        width: 150px;
+    }
+    .modal-text {
+        font-size: 14px;
+    }
 }
