@@ -12,6 +12,11 @@
 
 .nav-bar-icon {
     display: none;
+    background: #0038ED;
+    color: #FFF;
+    padding: 10px 12px 10px 12px;
+    border: none;
+    font-size: 17px;
 }
 
 .nav-list ul {
