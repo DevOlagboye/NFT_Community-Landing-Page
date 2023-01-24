@@ -87,4 +87,7 @@
     .circle {
         display: none;
     }
+    .description p {
+        margin-left: 0px;
+    }
 }
