@@ -79,6 +79,9 @@
 
 @media(max-width: 600px) {
     .heropage-text h2 {
-        font-size: 40px;
+        font-size: 45px;
+    }
+    .star {
+        display: none;
     }
 }
