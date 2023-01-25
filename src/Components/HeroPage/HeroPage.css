@@ -111,4 +111,7 @@
     .mobile-button {
         display: block;
     }
+    .heropage-image .heropage-img {
+        width: 300px;
+    }
 }
