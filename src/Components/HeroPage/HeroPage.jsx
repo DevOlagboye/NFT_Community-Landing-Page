@@ -40,7 +40,7 @@ const HeroPage = () => {
         </div>
         </div>
             <div className='heropage-image'>
-                <img src={heroPageImage} alt="HeroPage Illustration" />
+                <img src={heroPageImage} alt="HeroPage Illustration" className='heropage-img' />
             </div>
         </div>
     </div>
