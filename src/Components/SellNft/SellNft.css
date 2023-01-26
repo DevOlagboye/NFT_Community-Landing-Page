@@ -24,3 +24,9 @@
     padding: 20px;
     border-radius: 14px;
 }
+
+@media(max-width: 600px) {
+    .sell-nft-text {
+        margin-left: 20px;
+    }
+}
