@@ -37,3 +37,10 @@
 .cta-details button:hover {
     cursor: pointer;
 }
+
+@media(max-width: 600px) {
+    .cta-details h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
