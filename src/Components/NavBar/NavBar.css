@@ -84,6 +84,11 @@
     border: none;
 }
 
+.mobile-menu .ant-drawer-close {
+    color: #FFF;
+    font-size: 20px;
+}
+
 @media(max-width: 600px) {
     .nav-list ul li,
     .nav-button {
