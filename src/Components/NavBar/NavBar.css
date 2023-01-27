@@ -83,7 +83,9 @@
     font-family: "Inter", sans-serif;
     border: none;
 }
-
+.ant-drawer-content-wrapper{
+    width: 300px !important;
+}
 .mobile-menu .ant-drawer-close {
     color: #FFF;
     font-size: 20px;
