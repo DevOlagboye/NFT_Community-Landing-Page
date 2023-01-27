@@ -37,10 +37,8 @@ const NavBar = () => {
                 <li>Marketplace</li>
                 <li>Creator</li>
                 <li>Community</li>
+                <button>Connect Wallet</button>
             </ul>
-            <div className='nav-button'>
-            <button>Contact Us</button>
-        </div>
             </Drawer>
     </div>
   )
