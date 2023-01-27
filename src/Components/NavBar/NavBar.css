@@ -61,6 +61,9 @@
 
 .mobile-menu ul li {
     list-style: none;
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
 }
 
 @media(max-width: 600px) {
