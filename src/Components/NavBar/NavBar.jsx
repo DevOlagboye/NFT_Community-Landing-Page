@@ -38,6 +38,9 @@ const NavBar = () => {
                 <li>Creator</li>
                 <li>Community</li>
             </ul>
+            <div className='nav-button'>
+            <button>Contact Us</button>
+        </div>
             </Drawer>
     </div>
   )
