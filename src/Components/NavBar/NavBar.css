@@ -73,6 +73,16 @@
     transform: translateX(20px);
 }
 
+.mobile-menu button {
+    width: 130px;
+    height: 40px;
+    background: #0038ED;
+    color: #FFF;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: none;
+}
+
 @media(max-width: 600px) {
     .nav-list ul li,
     .nav-button {
