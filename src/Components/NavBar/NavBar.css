@@ -54,6 +54,15 @@
     border: none;
 }
 
+.mobile-menu {
+    background: #8D1CFE !important;
+    color: #FFF;
+}
+
+.mobile-menu ul li {
+    list-style: none;
+}
+
 @media(max-width: 600px) {
     .nav-list ul li,
     .nav-button {
