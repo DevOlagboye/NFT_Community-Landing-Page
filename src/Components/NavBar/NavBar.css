@@ -62,6 +62,7 @@
 .mobile-menu ul li {
     list-style: none;
     margin-top: 30px;
+    margin-left: 20px;
     font-size: 16px;
     font-family: "Inter", sans-serif;
     transition: ease-in-out .6s;
@@ -82,6 +83,7 @@
     margin-top: 30px;
     font-family: "Inter", sans-serif;
     border: none;
+    margin-left: 20px;
 }
 .ant-drawer-content-wrapper{
     width: 300px !important;
