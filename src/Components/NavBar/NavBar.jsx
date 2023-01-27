@@ -31,7 +31,7 @@ const NavBar = () => {
         <button onClick={showMenu} className="nav-bar-icon">
                 <FaBars/>
             </button>
-            <Drawer placement='left' onClose={hideMenu} open={open}>
+            <Drawer placement='left' onClose={hideMenu} open={open} className="mobile-menu">
             <ul>
                 <li>Drop</li>
                 <li>Marketplace</li>
