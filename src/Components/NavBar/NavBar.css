@@ -122,4 +122,7 @@
     .navbar-container .logo img {
         width: 100px;
     }
+    .nav-button button {
+        width: 102px;
+    }
 }
