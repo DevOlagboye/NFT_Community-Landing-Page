@@ -53,7 +53,9 @@
     border-radius: 30px;
     border: none;
 }
-
+.nav-button button:hover{
+    cursor: pointer;
+}
 .mobile-menu {
     background: #8D1CFE !important;
     color: #FFF;
