@@ -114,3 +114,9 @@
         justify-content: flex-start;
     }
 }
+
+@media(max-width: 992px) {
+    .navbar-container {
+        gap: 0px;
+    }
+}
