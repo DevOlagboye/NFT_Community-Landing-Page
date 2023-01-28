@@ -119,4 +119,7 @@
     .navbar-container {
         gap: 0px;
     }
+    .navbar-container .logo img {
+        width: 100px;
+    }
 }
