@@ -97,6 +97,7 @@
 .mobile-menu .ant-drawer-close {
     color: #FFF;
     font-size: 20px;
+    margin-left: 0px !important;
 }
 
 @media(max-width: 600px) {
