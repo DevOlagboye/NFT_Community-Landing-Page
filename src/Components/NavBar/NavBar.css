@@ -53,9 +53,11 @@
     border-radius: 30px;
     border: none;
 }
-.nav-button button:hover{
+
+.nav-button button:hover {
     cursor: pointer;
 }
+
 .mobile-menu {
     background: #8D1CFE !important;
     color: #FFF;
@@ -87,9 +89,11 @@
     border: none;
     margin-left: 20px;
 }
-.ant-drawer-content-wrapper{
+
+.ant-drawer-content-wrapper {
     width: 300px !important;
 }
+
 .mobile-menu .ant-drawer-close {
     color: #FFF;
     font-size: 20px;
