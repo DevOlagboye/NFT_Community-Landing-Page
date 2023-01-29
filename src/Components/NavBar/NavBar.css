@@ -104,6 +104,10 @@
     color: #fff;
 }
 
+.ant-drawer-header {
+    padding: 0px !important;
+}
+
 @media (max-width: 600px) {
     .nav-list ul li,
     .nav-button {
