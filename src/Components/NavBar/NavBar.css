@@ -104,6 +104,10 @@
     color: #fff;
 }
 
+.ant-drawer-body {
+    padding: 0px !important;
+}
+
 .ant-drawer-header {
     padding: 0px !important;
 }
