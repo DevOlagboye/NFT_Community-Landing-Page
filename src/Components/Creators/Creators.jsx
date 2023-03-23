@@ -3,6 +3,9 @@ import "./Creators.css"
 import { topCreators } from './data'
 
 const Creators = () => {
+    const watchVideo = () =>{
+        window.open('https://youtu.be/Oz9zw7-_vhM')
+    }
   return (
     <div className='creators-container'>
         <div className='creators-text'>
@@ -25,7 +28,7 @@ const Creators = () => {
         }
         </div>
         <div className='view-more'>
-            <button className='view-more-btn'>Watch Video</button>
+            <button onClick={watchVideo} className='view-more-btn'>Watch Video</button>
         </div> 
     </div>
   )
