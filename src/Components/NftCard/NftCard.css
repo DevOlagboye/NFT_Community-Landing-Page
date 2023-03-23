@@ -7,7 +7,7 @@
 }
 
 .nftcard {
-    background: #FFF;
+    background: #fff;
     height: 400px;
     width: 285px;
     border-radius: 10px;
@@ -17,6 +17,8 @@
     margin: auto;
     display: block;
     padding-top: 8px;
+    width: 265px;
+    border-radius: 15px;
 }
 
 .nft-price-number {
@@ -41,7 +43,7 @@
     margin-left: -10px;
     font-size: 15px;
     margin-top: 5px;
-    color: #815EE3;
+    color: #815ee3;
 }
 
 .nftcard-details .nft-price-number-text {
@@ -53,7 +55,7 @@
 
 .nftcard-details .nft-line {
     margin-top: -5px;
-    border: 0.9px solid #EDECEC;
+    border: 0.9px solid #edecec;
     width: 90%;
 }
 
@@ -64,9 +66,9 @@
 }
 
 .countdown {
-    background: #E3DAFF;
+    background: #e3daff;
     text-align: center;
-    color: #1C51FE;
+    color: #1c51fe;
     width: 80px;
     font-size: 9px;
     font-weight: 600;
@@ -78,7 +80,7 @@
     margin-left: 90px;
     background: transparent;
     border: none;
-    color: #1C51FE;
+    color: #1c51fe;
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -98,7 +100,7 @@
 }
 
 .modal-text {
-    color: #815EE3;
+    color: #815ee3;
     font-size: 18px;
     font-family: "Inter", sans-serif;
 }
@@ -106,7 +108,7 @@
 .modal-price {
     font-size: 18px;
     margin-top: 10px;
-    color: #815EE3;
+    color: #815ee3;
 }
 
 .ant-modal-content {
@@ -114,8 +116,8 @@
 }
 
 .view-more-btn {
-    background: linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%);
-    color: #FFF;
+    background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+    color: #fff;
     border: none;
     margin-top: 30px;
     height: 40px;
@@ -141,10 +143,10 @@
 
 .nft-button .primary-btn {
     display: block;
-    background: #815EE3;
+    background: #815ee3;
     font-size: 15px;
     border: none;
-    color: #FFF;
+    color: #fff;
     height: 40px;
     width: 100%;
     margin-top: 20px;
@@ -152,13 +154,13 @@
 }
 
 .nft-button .secondary-btn {
-    color: #815EE3;
+    color: #815ee3;
     font-size: 15px;
     width: 100%;
-    background: #FFF;
+    background: #fff;
     height: 40px;
     font-family: "Inter", sans-serif;
-    border: #815EE3 1px dashed;
+    border: #815ee3 1px dashed;
     border-radius: 4px;
 }
 
@@ -166,7 +168,7 @@
     cursor: pointer;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
     .nftcard-details .nft-image {
         width: 250px;
         padding-top: 15px;
