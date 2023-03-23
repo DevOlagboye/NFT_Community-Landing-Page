@@ -4,7 +4,7 @@ import thirdNFT from "../../Assets/homes-nfts/homes-nft-3.jpeg";
 import fourthNFT from "../../Assets/homes-nfts/homes-nft-4.jpeg";
 import fifthNFT from "../../Assets/homes-nfts/homes-nft-5.jpeg";
 import sixthNFT from "../../Assets/homes-nfts/homes-nft-6.jpeg";
-import seventhNFT from "../../Assets/nfts/nft-image7.png";
+import seventhNFT from "../../Assets/homes-nfts/homes-nft-7.jpeg";
 import eighthNFT from "../../Assets/nfts/nft-image8.png";
 
 export const NFTs = [{
