@@ -9,7 +9,7 @@ export const ourTabs = [{
     },
     {
         key: 2,
-        Tab: <Tag className="tags">Abstract</Tag>,
+        Tab: <Tag className="tags">Homes</Tag>,
         children: <NftCard/>
     },
     {
