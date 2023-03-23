@@ -2,7 +2,7 @@ import firstNFT from "../../Assets/homes-nfts/homes-nft-1.jpeg";
 import secondNFT from "../../Assets/homes-nfts/homes-nft-2.jpeg";
 import thirdNFT from "../../Assets/homes-nfts/homes-nft-3.jpeg";
 import fourthNFT from "../../Assets/homes-nfts/homes-nft-4.jpeg";
-import fifthNFT from "../../Assets/nfts/nft-image5.png";
+import fifthNFT from "../../Assets/homes-nfts/homes-nft-5.jpeg";
 import sixthNFT from "../../Assets/nfts/nft-image6.png";
 import seventhNFT from "../../Assets/nfts/nft-image7.png";
 import eighthNFT from "../../Assets/nfts/nft-image8.png";
