@@ -20,7 +20,7 @@
     width: 265px;
     height: 260px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 14px;
 }
 
 .nft-price-number {
@@ -170,11 +170,12 @@
 .nft-button button:hover {
     cursor: pointer;
 }
-.nft-modal-img{
+
+.nft-modal-img {
     width: 230px;
     border-radius: 15px;
-
 }
+
 @media (max-width: 600px) {
     .nftcard-details .nft-image {
         width: 250px;
