@@ -1,6 +1,6 @@
 import firstNFT from "../../Assets/homes-nfts/homes-nft-1.jpeg";
 import secondNFT from "../../Assets/homes-nfts/homes-nft-2.jpeg";
-import thirdNFT from "../../Assets/nfts/nft-image3.png";
+import thirdNFT from "../../Assets/homes-nfts/homes-nft-3.jpeg";
 import fourthNFT from "../../Assets/nfts/nft-image4.png";
 import fifthNFT from "../../Assets/nfts/nft-image5.png";
 import sixthNFT from "../../Assets/nfts/nft-image6.png";
