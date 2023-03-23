@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./NftCard.css";
+import "../NftCard/NftCard.css";
 import { Modal } from "antd";
 import ethImage from "../../Assets/images/ETH.png";
 import { NFTs } from "./data";
