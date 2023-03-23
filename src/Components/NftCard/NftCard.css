@@ -18,6 +18,8 @@
     display: block;
     padding-top: 8px;
     width: 265px;
+    height: 260px;
+    object-fit: cover;
     border-radius: 15px;
 }
 
