@@ -18,7 +18,7 @@ export const NFTs = [{
         key: 2,
         nftName: "ArtCrypto 02",
         nftImage: secondNFT,
-        nftPrice: "0.25",
+        nftPrice: "0.15",
         amount: "1 of 32",
     },
     {
