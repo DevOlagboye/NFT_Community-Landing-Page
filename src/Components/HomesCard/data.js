@@ -1,4 +1,4 @@
-import firstNFT from "../../Assets/nfts/nft-image1.png"
+import firstNFT from "../../Assets/homes-nfts/homes-nft-1.jpeg"
 import secondNFT from "../../Assets/nfts/nft-image2.png"
 import thirdNFT from "../../Assets/nfts/nft-image3.png"
 import fourthNFT from "../../Assets/nfts/nft-image4.png"
@@ -9,7 +9,7 @@ import eighthNFT from "../../Assets/nfts/nft-image8.png"
 
 export const NFTs = [{
         key: 1,
-        nftName: "ArtCrypto 01",
+        nftName: "AvaxHomes 01",
         nftImage: firstNFT,
         nftPrice: "0.25",
         amount: "1 of 32"
