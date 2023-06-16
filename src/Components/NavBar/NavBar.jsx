@@ -38,7 +38,6 @@ const NavBar = () => {
         <ul>
           <li>Marketplace</li>
           <li>Creator</li>
-          <li>Community</li>
           <button>Connect Wallet</button>
         </ul>
       </Drawer>
