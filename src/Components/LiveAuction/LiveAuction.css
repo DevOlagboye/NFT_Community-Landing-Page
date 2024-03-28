@@ -1,4 +1,25 @@
 .liveauction-img {
-    overflow: hidden;
-    margin-left: -40px;
+  width: 100vw;
+  height: 160px;
+  transform: rotate(-5deg);
+  background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+  overflow: hidden;
+  margin-left: -7px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.live-auction-text {
+  font-size: 80px;
+  color: #fff;
+}
+
+.texts {
+  display: flex;
+  margin-top: -50px;
+}
+
+.texts > p {
+  margin-left: 30px;
+  font-family: "Orbitron", sans-serif;
 }
