@@ -1,7 +1,7 @@
 import React from "react";
 import "./LiveAuction.css";
 import Marquee from "react-fast-marquee";
-import liveAuction from "../../Assets/images/LIVE-AUCTION.png";
+// import liveAuction from "../../Assets/images/LIVE-AUCTION.png";
 
 const text = "LIVE AUCTION.";
 const LiveAuction = () => {
